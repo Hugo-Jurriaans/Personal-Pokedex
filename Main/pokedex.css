@@ -89,4 +89,39 @@ input[type="text"] {
     width: 300px;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p[id^="suggestionname"] {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p[id^="suggestiondexnumber"] {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div[id^="divsuggestion"] {
+    display: flex;
+    align-items: center;
+    text-align: end;
+    gap: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+div#suggestions {
+    display: flex;
+    flex-direction: column;
+    width: 20%
+}
+
+img[id^="suggestionimage"] {
+    max-width: 75px;
+    max-height: 75px;
 }
